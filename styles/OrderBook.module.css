@@ -1,0 +1,33 @@
+.orderBookContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #2c2f33;
+  color: #fff;
+}
+
+.column {
+  width: 48%; /* Adjust as needed */
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #4f545c;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.3rem 0;
+}
+
+.bidPrice {
+  color: #f04747; /* Red for bids */
+}
+
+.offerPrice {
+  color: #43b581; /* Green for offers */
+}

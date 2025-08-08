@@ -1,0 +1,23 @@
+.tickerInfo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #2c2f33; /* Dark background */
+  border-bottom: 1px solid #4f545c;
+  color: #fff;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #a7a9ac;
+}
+
+.value {
+  font-weight: bold;
+}
